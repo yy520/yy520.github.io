@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+
+  
+  <title>乱七八糟 | Hexo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="echo 3 &amp;gt; /proc/sys/vm/drop_caches   #释放内存 cat /var/log/secure|awk ‘/Failed/{print $(NF-3)}’|sort|uniq -c|awk ‘{print $2”=”$1;}’ cat /var/log/securecat /etc/redhat-release yum -y update yum -y insta">
+<meta property="og:type" content="article">
+<meta property="og:title" content="乱七八糟">
+<meta property="og:url" content="http://yoursite.com/2017/08/30/乱七八糟/index.html">
+<meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="echo 3 &amp;gt; /proc/sys/vm/drop_caches   #释放内存 cat /var/log/secure|awk ‘/Failed/{print $(NF-3)}’|sort|uniq -c|awk ‘{print $2”=”$1;}’ cat /var/log/securecat /etc/redhat-release yum -y update yum -y insta">
+<meta property="og:locale" content="default">
+<meta property="og:updated_time" content="2017-08-30T04:02:53.349Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="乱七八糟">
+<meta name="twitter:description" content="echo 3 &amp;gt; /proc/sys/vm/drop_caches   #释放内存 cat /var/log/secure|awk ‘/Failed/{print $(NF-3)}’|sort|uniq -c|awk ‘{print $2”=”$1;}’ cat /var/log/securecat /etc/redhat-release yum -y update yum -y insta">
+  
+    <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">Hexo</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
+      </div>
+    </div>
+  </div>
+</header>
+      <div class="outer">
+        <section id="main"><article id="post-乱七八糟" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2017/08/30/乱七八糟/" class="article-date">
+  <time datetime="2017-08-30T03:21:59.000Z" itemprop="datePublished">2017-08-30</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      乱七八糟
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>echo 3 &gt; /proc/sys/vm/drop_caches   #释放内存</p>
+<p>cat /var/log/secure|awk ‘/Failed/{print $(NF-3)}’|sort|uniq -c|awk ‘{print $2”=”$1;}’</p>
+<h2 id="cat-var-log-secure"><a href="#cat-var-log-secure" class="headerlink" title="cat /var/log/secure"></a>cat /var/log/secure</h2><p>cat /etc/redhat-release</p>
+<p>yum -y update</p>
+<p>yum -y install vim</p>
+<p>yum -y install wget</p>
+<p>yum -y install epel-release</p>
+<p>yum -y install nmap</p>
+<p>yum install screen</p>
+<p>useradd XXXX</p>
+<p>passwd XXXX</p>
+<hr>
+<hr>
+<p>vim /etc/sysconfig/iptables</p>
+<p>vim /etc/ssh/sshd_config</p>
+<p>/etc/init.d/sshd restart</p>
+<p>service iptables restart</p>
+<p>============&lt;&lt;<shadowsocks-libev>&gt;&gt;===============================</shadowsocks-libev></p>
+<p>wget –no-check-certificate -O shadowsocks-libev.sh <a href="https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocks-libev.sh" target="_blank" rel="noopener">https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocks-libev.sh</a></p>
+<p>chmod +x shadowsocks-libev.sh</p>
+<p>./shadowsocks-libev.sh 2&gt;&amp;1 | tee shadowsocks-libev.log</p>
+<p>vim /etc/shadowsocks-libev/config.json</p>
+<p>/etc/init.d/shadowsocks restart</p>
+<p>./shadowsocks-libev.sh uninstall</p>
+<p>————&lt;&lt;<shadowsocks-python>&gt;&gt;——————–</shadowsocks-python></p>
+<p>wget –no-check-certificate -O shadowsocks.sh <a href="https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocks.sh" target="_blank" rel="noopener">https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocks.sh</a></p>
+<p>chmod +x shadowsocks.sh</p>
+<p>./shadowsocks.sh 2&gt;&amp;1 | tee shadowsocks.log</p>
+<p>vim /etc/shadowsocks.json</p>
+<p>{<br>    “server”:”0.0.0.0”,<br>    “local_address”:”127.0.0.1”,<br>    “local_port”:1080,<br>    “port_password”:{<br>         “8989”:”password0”,<br>         “9001”:”password1”,<br>         “9003”:”password3”,<br>         “9004”:”password4”<br>    },<br>    “timeout”:300,<br>    “method”:”aes-256-cfb”,<br>    “fast_open”: false<br>}</p>
+<p>/etc/init.d/shadowsocks restart</p>
+<p>./shadowsocks.sh uninstall</p>
+<p>—————&lt;&lt;<kcptun>&gt;&gt;——————————————–</kcptun></p>
+<p>wget –no-check-certificate <a href="https://github.com/kuoruan/shell-scripts/raw/master/kcptun/kcptun.sh" target="_blank" rel="noopener">https://github.com/kuoruan/shell-scripts/raw/master/kcptun/kcptun.sh</a>    #新仓库</p>
+<p>chmod +x ./kcptun.sh</p>
+<p>./kcptun.sh</p>
+<p>service supervisord restart</p>
+<p>supervisorctl restart kcptun</p>
+<p>————–&lt;&lt;&lt;<bbr>&gt;&gt;&gt;&gt;——————————</bbr></p>
+<p>wget –no-check-certificate <a href="https://github.com/teddysun/across/raw/master/bbr.sh" target="_blank" rel="noopener">https://github.com/teddysun/across/raw/master/bbr.sh</a></p>
+<p>chmod +x bbr.sh</p>
+<p>./bbr.sh</p>
+<p>重启？  </p>
+<p>y</p>
+<p>—————&lt;&lt;<fail2ban>&gt;&gt;———————————</fail2ban></p>
+<p>yum install fail2ban</p>
+<p>chkconfig –add fail2ban</p>
+<p>/etc/init.d/fail2ban start</p>
+<p>vim /etc/fail2ban/jail.local</p>
+<p>[DEFAULT]</p>
+<h1 id="禁止一个IP一小时"><a href="#禁止一个IP一小时" class="headerlink" title="禁止一个IP一小时"></a>禁止一个IP一小时</h1><p>bantime = 3600</p>
+<h1 id="覆写-etc-fail2ban-jail-d-00-firewalld-conf"><a href="#覆写-etc-fail2ban-jail-d-00-firewalld-conf" class="headerlink" title="覆写 /etc/fail2ban/jail.d/00-firewalld.conf:"></a>覆写 /etc/fail2ban/jail.d/00-firewalld.conf:</h1><p>banaction = iptables-multiport</p>
+<p>[sshd]<br>enabled = true</p>
+<p>service fail2ban restart</p>
+<p>fail2ban-client ping</p>
+<p>Server replied: pong</p>
+<p>fail2ban-client status sshd</p>
+<p>fail2ban-client set sshd unbanip 192.168.1.8</p>
+<p>—————-&lt;&lt;&lt;定时重启&gt;&gt;&gt;———————————</p>
+<p>yum -y install vixie-cron crontabs                 </p>
+<p>chkconfig crond on</p>
+<p>service crond start</p>
+<p>crontab -e</p>
+<p>0 16 <em> </em> * /sbin/reboot      #每天16：00重启                 </p>
+<p>30 8 <em> </em> 7 /root/clear.sh    #每周五8：30清理  <em> </em>日期和月</p>
+<p>/etc/rc.d/init.d/crond stop</p>
+<p>/etc/rc.d/init.d/crond start</p>
+<p>————-&lt;&lt;&lt; vnstat流量统计 &gt;&gt;&gt;———————</p>
+<p>yum -y install vnstat</p>
+<p>vnstat -u -i eth0</p>
+<p>/etc/init.d/vnstat start</p>
+<p>chkconfig vnstat on</p>
+<p>DEVICE=”eth0”           #前面字母大写<br>ONBOOT=”yes”<br>IPADDR=192.168.1.*<br>NETMASK=255.255.255.0<br>GATEWAY=192.168.1.1<br>BOOTPROTO=static<br>DNS1=208.67.220.220<br>DNS2=8.8.8.8</p>
+<p>===============================&lt;&lt;&lt; v2ray &gt;&gt;&gt;===================================</p>
+<p>uuidgen   #生成UUID</p>
+<p>wget <a href="https://github.com/v2ray/v2ray-core/releases/download/v2.33.1/v2ray-linux-32.zip" target="_blank" rel="noopener">https://github.com/v2ray/v2ray-core/releases/download/v2.33.1/v2ray-linux-32.zip</a></p>
+<p>unzip v2ray-linux-32.zip</p>
+<p>cd v2ray-v2.33.1-linux-32</p>
+<p>chmod +x v2ray</p>
+<p>cd /root/v2ray-v2.33.1-linux-32</p>
+<p>vim access.log</p>
+<p>vim error.log</p>
+<p>vim config.json</p>
+<p>{<br>  “log” : {<br>    “access”: “/root/v2ray-v2.33.1-linux-32/access.log”,<br>    “error”: “/root/v2ray-v2.33.1-linux-32/error.log”,<br>    “loglevel”: “warning”<br>  },<br>  “inbound”: {<br>    “port”: 12345,<br>    “protocol”: “vmess”,<br>    “settings”: {<br>      “clients”: [<br>        {<br>          “id”: “UUID”,<br>          “level”: 1,<br>          “alterId”: 100<br>        }<br>      ]<br>    }<br>  },<br>  “outbound”: {<br>    “protocol”: “freedom”,<br>    “settings”: {}<br>  },<br>  “outboundDetour”: [<br>    {<br>      “protocol”: “blackhole”,<br>      “settings”: {},<br>      “tag”: “blocked”<br>    }<br>  ],<br>  “routing”: {<br>    “strategy”: “rules”,<br>    “settings”: {<br>      “rules”: [<br>        {<br>          “type”: “field”,<br>          “ip”: [<br>            “0.0.0.0/8”,<br>            “10.0.0.0/8”,<br>            “100.64.0.0/10”,<br>            “127.0.0.0/8”,<br>            “169.254.0.0/16”,<br>            “172.16.0.0/12”,<br>            “192.0.0.0/24”,<br>            “192.0.2.0/24”,<br>            “192.168.0.0/16”,<br>            “198.18.0.0/15”,<br>            “198.51.100.0/24”,<br>            “203.0.113.0/24”,<br>            “::1/128”,<br>            “fc00::/7”,<br>            “fe80::/10”<br>          ],<br>          “outboundTag”: “blocked”<br>        }<br>      ]<br>    }<br>  }<br>}</p>
+<p>服务端，自动生成器生成</p>
+<p>{<br>    “log”: {<br>        “access”: “/var/log/v2ray/access.log”,<br>        “error”: “/var/log/v2ray/error.log”,<br>        “loglevel”: “warning”<br>    },<br>    “inbound”: {<br>        “port”: 12345,<br>        “protocol”: “vmess”,<br>        “settings”: {<br>            “clients”: [<br>                {<br>                    “id”: “UUID”,<br>                    “level”: 1,<br>                    “alterId”: 100<br>                }<br>            ]<br>        }<br>    },<br>    “outbound”: {<br>        “protocol”: “freedom”,<br>        “settings”: {}<br>    },<br>    “inboundDetour”: [],<br>    “outboundDetour”: [<br>        {<br>            “protocol”: “blackhole”,<br>            “settings”: {},<br>            “tag”: “blocked”<br>        }<br>    ],<br>    “routing”: {<br>        “strategy”: “rules”,<br>        “settings”: {<br>            “rules”: [<br>                {<br>                    “type”: “field”,<br>                    “ip”: [<br>                        “0.0.0.0/8”,<br>                        “10.0.0.0/8”,<br>                        “100.64.0.0/10”,<br>                        “127.0.0.0/8”,<br>                        “169.254.0.0/16”,<br>                        “172.16.0.0/12”,<br>                        “192.0.0.0/24”,<br>                        “192.0.2.0/24”,<br>                        “192.168.0.0/16”,<br>                        “198.18.0.0/15”,<br>                        “198.51.100.0/24”,<br>                        “203.0.113.0/24”,<br>                        “::1/128”,<br>                        “fc00::/7”,<br>                        “fe80::/10”<br>                    ],<br>                    “outboundTag”: “blocked”<br>                }<br>            ]<br>        }<br>    }<br>}</p>
+<p>vim /etc/sysconfig/iptables    #手动打开指定端口</p>
+<p>service iptables restart       #重启防火墙</p>
+<p>./v2ray</p>
+<p>ctrl+z</p>
+<p>bg1</p>
+<p>jobs</p>
+<p>或者</p>
+<p>nohup  ./v2ray   &gt;/dev/null   &amp;          # 后台运行</p>
+<p>客户端部署</p>
+<p>编辑config.json文件</p>
+<p>{<br>  “log”: {<br>    “loglevel”: “warning”<br>  },<br>  “inbound”: {<br>    “port”: 1080,<br>    “listen”: “127.0.0.1”,<br>    “protocol”: “socks”,<br>    “settings”: {<br>      “auth”: “noauth”,<br>      “udp”: false,<br>      “ip”: “127.0.0.1”<br>    }<br>  },<br>  “outbound”: {<br>    “protocol”: “vmess”,<br>    “settings”: {<br>      “vnext”: [<br>        {<br>          “address”: “123.456.789.321”,<br>          “port”: 12345,<br>          “users”: [<br>            {<br>              “id”: “UUID”,<br>              “alterId”: 100<br>            }<br>          ]<br>        }<br>      ]<br>    }<br>  },<br>  “outboundDetour”: [<br>    {<br>      “protocol”: “freedom”,<br>      “settings”: {},<br>      “tag”: “direct”<br>    }<br>  ],<br>  “routing”: {<br>    “strategy”: “rules”,<br>    “settings”: {<br>      “rules”: [<br>        {<br>          “type”: “chinasites”,<br>          “outboundTag”: “direct”<br>        },<br>        {<br>          “type”: “field”,<br>          “ip”: [<br>            “0.0.0.0/8”,<br>            “10.0.0.0/8”,<br>            “100.64.0.0/10”,<br>            “127.0.0.0/8”,<br>            “169.254.0.0/16”,<br>            “172.16.0.0/12”,<br>            “192.0.0.0/24”,<br>            “192.0.2.0/24”,<br>            “192.168.0.0/16”,<br>            “198.18.0.0/15”,<br>            “198.51.100.0/24”,<br>            “203.0.113.0/24”,<br>            “::1/128”,<br>            “fc00::/7”,<br>            “fe80::/10”<br>          ],<br>          “outboundTag”: “direct”<br>        },<br>        {<br>          “type”: “chinaip”,<br>          “outboundTag”: “direct”<br>        }<br>      ]<br>    }<br>  }<br>}</p>
+<p>客户端2  自动生成器生成</p>
+<p>{<br>    “log”: {<br>        “loglevel”: “warning”<br>    },<br>    “inbound”: {<br>        “port”: 1081,<br>        “protocol”: “socks”,<br>        “settings”: {<br>            “auth”: “noauth”,<br>            “udp”: true,<br>            “ip”: “127.0.0.1”<br>        }<br>    },<br>    “outbound”: {<br>        “protocol”: “vmess”,<br>        “settings”: {<br>            “vnext”: [<br>                {<br>                    “address”: “123.123.123.123”,             # vps地址<br>                    “port”: 12345,                          # 端口<br>                    “users”: [<br>                        {<br>                            “id”: “UUID”,                     # UUID<br>                            “level”: 1,<br>                            “alterId”: 100                # 额外ID数量<br>                        }<br>                    ]<br>                }<br>            ]<br>        }<br>    },<br>    “outboundDetour”: [<br>        {<br>            “protocol”: “freedom”,<br>            “settings”: {},<br>            “tag”: “direct”<br>        }<br>    ],<br>    “routing”: {<br>        “strategy”: “rules”,<br>        “settings”: {<br>            “rules”: [<br>                {<br>                    “type”: “field”,<br>                    “port”: “54-79”,<br>                    “outboundTag”: “direct”<br>                },<br>                {<br>                    “type”: “field”,<br>                    “port”: “81-442”,<br>                    “outboundTag”: “direct”<br>                },<br>                {<br>                    “type”: “field”,<br>                    “port”: “444-65535”,<br>                    “outboundTag”: “direct”<br>                },<br>                {<br>                    “type”: “field”,<br>                    “domain”: [<br>                        “gc.kis.scr.kaspersky-labs.com”<br>                    ],<br>                    “outboundTag”: “direct”<br>                },<br>                {<br>                    “type”: “chinasites”,<br>                    “outboundTag”: “direct”<br>                },<br>                {<br>                    “type”: “field”,<br>                    “ip”: [<br>                        “0.0.0.0/8”,<br>                        “10.0.0.0/8”,<br>                        “100.64.0.0/10”,<br>                        “127.0.0.0/8”,<br>                        “169.254.0.0/16”,<br>                        “172.16.0.0/12”,<br>                        “192.0.0.0/24”,<br>                        “192.0.2.0/24”,<br>                        “192.168.0.0/16”,<br>                        “198.18.0.0/15”,<br>                        “198.51.100.0/24”,<br>                        “203.0.113.0/24”,<br>                        “::1/128”,<br>                        “fc00::/7”,<br>                        “fe80::/10”<br>                    ],<br>                    “outboundTag”: “direct”<br>                },<br>                {<br>                    “type”: “chinaip”,<br>                    “outboundTag”: “direct”<br>                }<br>            ]<br>        }<br>    }<br>}</p>
+<p>——————&lt;&lt;&lt; V2ray 开启 TLS &gt;&gt;&gt;————————-</p>
+<p>cd /home/</p>
+<p>git clone <a href="https://github.com/letsencrypt/letsencrypt" target="_blank" rel="noopener">https://github.com/letsencrypt/letsencrypt</a></p>
+<p>cd letsencrypt</p>
+<p>./letsencrypt-auto certonly –standalone –email <a href="mailto:your@email.com" target="_blank" rel="noopener">your@email.com</a> -d <a href="http://www.yourdomain.com" target="_blank" rel="noopener">www.yourdomain.com</a>      #若无法安装，试试停止iptables</p>
+<p>证书目录通常为/etc/letsencrypt/live/<a href="http://www.yourdomain.com/" target="_blank" rel="noopener">www.yourdomain.com/</a>   #证书只有3个月有效期 ！</p>
+<p>vim config.json      # 配置服务端。增加以下代码</p>
+<p>“streamSettings”: {<br>“network”: “tcp”,<br>“security”: “tls”,<br>“tlsSettings”: {<br>“serverName”: “<a href="http://www.yourdomain.com&quot;" target="_blank" rel="noopener">www.yourdomain.com&quot;</a>,<br>“certificates”: [<br>{<br>“certificateFile”: “/etc/letsencrypt/live/<a href="http://www.yourdomain.com/fullchain.pem&quot;" target="_blank" rel="noopener">www.yourdomain.com/fullchain.pem&quot;</a>,<br>“keyFile”: “/etc/letsencrypt/live/<a href="http://www.yourdomain.com/privkey.pem&quot;" target="_blank" rel="noopener">www.yourdomain.com/privkey.pem&quot;</a><br>}<br>]<br>}<br>},</p>
+<p>v2ray 端口必须设为443</p>
+<p>reboot    #重启</p>
+<p>客户端增加如下</p>
+<p> “streamSettings”: {<br> “network”: “tcp”,<br> “security”: “tls”<br>    }<br>  }<br>}</p>
+<p>v2ray本地客户端配置文件 例子</p>
+<p>{<br>  “log”: {<br>    “loglevel”: “warning”<br>  },<br>  “inbound”: {<br>    “port”: 1082,<br>    “listen”: “127.0.0.1”,<br>    “protocol”: “socks”,<br>    “settings”: {<br>      “auth”: “noauth”,<br>      “udp”: false,<br>      “ip”: “127.0.0.1”<br>    }<br>  },<br>  “outbound”: {<br>    “protocol”: “vmess”,<br>    “settings”: {<br>      “vnext”: [<br>        {<br>          “address”: “123.123.123.123”,<br>          “port”: 443,<br>          “users”: [<br>            {<br>              “id”: “UUID”,<br>              “alterId”: 500<br>            }<br>          ]<br>        }<br>      ]<br>    }<br>  },<br> “streamSettings”: {<br> “network”: “tcp”,<br> “security”: “tls”<br>    }<br>  }<br>}<br>  “outboundDetour”: [<br>    {<br>      “protocol”: “freedom”,<br>      “settings”: {},<br>      “tag”: “direct”<br>    }<br>  ],<br>  “routing”: {<br>    “strategy”: “rules”,<br>    “settings”: {<br>      “rules”: [<br>        {<br>          “type”: “chinasites”,<br>          “outboundTag”: “direct”<br>        },<br>        {<br>          “type”: “field”,<br>          “ip”: [<br>            “0.0.0.0/8”,<br>            “10.0.0.0/8”,<br>            “100.64.0.0/10”,<br>            “127.0.0.0/8”,<br>            “169.254.0.0/16”,<br>            “172.16.0.0/12”,<br>            “192.0.0.0/24”,<br>            “192.0.2.0/24”,<br>            “192.168.0.0/16”,<br>            “198.18.0.0/15”,<br>            “198.51.100.0/24”,<br>            “203.0.113.0/24”,<br>            “::1/128”,<br>            “fc00::/7”,<br>            “fe80::/10”<br>          ],<br>          “outboundTag”: “direct”<br>        },<br>        {<br>          “type”: “chinaip”,<br>          “outboundTag”: “direct”<br>        }<br>      ]<br>    }<br>  }<br>}</p>
+<p>服务端配置</p>
+<p>{<br>    “log”: {<br>        “access”: “/home/username/v2ray-linux/access.log”,<br>        “error”: “/home/username/v2ray-linux/error.log”,<br>        “loglevel”: “warning”<br>    },<br>    “inbound”: {<br>        “port”: 443,<br>        “protocol”: “vmess”,<br>        “settings”: {<br>            “clients”: [<br>                {<br>                    “id”: “UUID”,<br>                    “level”: 1,<br>                    “alterId”: 500<br>                }<br>            ]<br>        }<br>    },<br>    “streamSettings”: {<br>    “network”: “tcp”,<br>    “security”: “tls”,<br>    “tlsSettings”: {<br>    “serverName”: “<a href="http://www.abcd.tk&quot;" target="_blank" rel="noopener">www.abcd.tk&quot;</a>,<br>    “certificates”: [<br>{<br>    “certificateFile”: “/etc/letsencrypt/live/<a href="http://www.abcd.tk/fullchain.pem&quot;" target="_blank" rel="noopener">www.abcd.tk/fullchain.pem&quot;</a>,<br>    “keyFile”: “/etc/letsencrypt/live/<a href="http://www.abcd.tk/privkey.pem&quot;" target="_blank" rel="noopener">www.abcd.tk/privkey.pem&quot;</a><br>}<br>]<br>}<br>},<br>        “outbound”: {<br>        “protocol”: “freedom”,<br>        “settings”: {}<br>    },<br>    “inboundDetour”: [],<br>    “outboundDetour”: [<br>        {<br>            “protocol”: “blackhole”,<br>            “settings”: {},<br>            “tag”: “blocked”<br>        }<br>    ],<br>    “routing”: {<br>        “strategy”: “rules”,<br>        “settings”: {<br>            “rules”: [<br>                {<br>                    “type”: “field”,<br>                    “ip”: [<br>                        “0.0.0.0/8”,<br>                        “10.0.0.0/8”,<br>                        “100.64.0.0/10”,<br>                        “127.0.0.0/8”,<br>                        “169.254.0.0/16”,<br>                        “172.16.0.0/12”,<br>                        “192.0.0.0/24”,<br>                        “192.0.2.0/24”,<br>                        “192.168.0.0/16”,<br>                        “198.18.0.0/15”,<br>                        “198.51.100.0/24”,<br>                        “203.0.113.0/24”,<br>                        “::1/128”,<br>                        “fc00::/7”,<br>                        “fe80::/10”<br>                    ],<br>                    “outboundTag”: “blocked”<br>                }<br>            ]<br>        }<br>    }<br>}</p>
+<p>============================heroku + snova 代理===========================================</p>
+<p>首先安装 Java</p>
+<p>下载必要工具</p>
+<p>Snova代理：   <a href="http://code.google.com/p/snova/downloads/list" target="_blank" rel="noopener">http://code.google.com/p/snova/downloads/list</a>     # snova-c4-java-server-0.22.0.war</p>
+<p>windows snova客户端     gsnova_0.22.1_windows_386.zip</p>
+<p>下载并安装Heroku Toolbelt工具：<a href="https://toolbelt.heroku.com/download/windows" target="_blank" rel="noopener">https://toolbelt.heroku.com/download/windows</a> </p>
+<p>安装完毕</p>
+<p>开始-运行-cmd</p>
+<p>heroku login</p>
+<p>输入heroku 账号密码</p>
+<p>email :  <strong>**</strong><br>password :  <strong>**</strong></p>
+<p>安装heroku-deploy</p>
+<p>heroku plugins:install <a href="https://github.com/heroku/heroku-deploy" target="_blank" rel="noopener">https://github.com/heroku/heroku-deploy</a>   </p>
+<p>或者</p>
+<p>heroku plugins:install heroku-cli-deploy</p>
+<p>创建应用</p>
+<p>heroku apps:create</p>
+<p><strong>**</strong>-<strong>**</strong>-数字.herokuapp.com 是应用地址，记下来</p>
+<p>上传服务端snova-c4-java-server-0.22.0.war ，假如下载后的服务端在D根目录，则</p>
+<p>要挂VPN</p>
+<p>d:</p>
+<p>heroku deploy:war –war ./snova-c4-java-server-0.22.0.war –app <strong><strong>-</strong></strong>-数字 #应用地址,后面无herokuapp.com</p>
+<h5 id="heroku-deploy-war-–war-lt-path-to-war-file-gt-–app-lt-app-name-gt"><a href="#heroku-deploy-war-–war-lt-path-to-war-file-gt-–app-lt-app-name-gt" class="headerlink" title="heroku deploy:war –war &lt;path_to_war_file&gt; –app &lt;app_name&gt;"></a>heroku deploy:war –war &lt;path_to_war_file&gt; –app &lt;app_name&gt;</h5><p>例如  heroku deploy:war –war ./snova-c4-java-server-0.22.0.war –app serene-ocean-30485</p>
+<p>完成后打开 serene-ocean-30485.herokuapp.com  若出现</p>
+<p>snova c4 server 0.22.0<br>………<br>………</p>
+<p>domainname <strong><strong><strong>____</strong></strong></strong></p>
+<p>则部署成功 ！</p>
+<p>解压 snova windows 客户端 gsnova_0.22.1_windows_386.zip</p>
+<p>打开gsnova.conf </p>
+<p>GAE Enable=1  的1改为 0</p>
+<p>C4  Enable=0  的0改为 1</p>
+<p>WorkerNode[0]=  此处填上应用地址  <strong><strong>-</strong></strong>-数字.herokuapp.com</p>
+<p>SPAC Enable=1  改为 0</p>
+<p>127.0.0.1  默认端口 48102     # gsnova.conf里有标注</p>
+<p>打开 gsnova.exe</p>
+<p>成功</p>
+<p>============================google voice申请脚本===============================</p>
+<p>#!/bin/bash</p>
+<p>#请注意使用UTF-8 without BOM格式，否则可能会出错</p>
+<p>#脚本 by Sunbread</p>
+<p>########## Setting ##########<br>threads=16 # 根据自身情况调整，若不会调整则按默认值即可</p>
+<p>########## Code ##########<br>echo 伪多线程脚本 by Sunbread<br>for((i=0;i&lt;$threads;++i));do while :;do<br>    [curl …] &gt;/dev/null 2&gt;/dev/null</p>
+<pre><code># 用刚才的命令替换中括号里的内容（包括两个中括号本身）
+</code></pre><p>done &amp;<br>done<br>echo 结束脚本请使用Ctrl+C，使用其它方法可能会出现无法预料的异常，谢谢合作<br>wait</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2017/08/30/乱七八糟/" data-id="cjgl0zyzp0002p8fp1dsid1bm" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/2018/04/29/hello-world/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          Hello World
+        
+      </div>
+    </a>
+  
+  
+    <a href="/2017/08/09/重装系统后Hexo的备份与恢复/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">重装系统后Hexo的备份与恢复</div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+
+  
+    
+
+  
+    
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/04/">April 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/08/">August 2017</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2018/04/29/hello-world/">Hello World</a>
+          </li>
+        
+          <li>
+            <a href="/2017/08/30/乱七八糟/">乱七八糟</a>
+          </li>
+        
+          <li>
+            <a href="/2017/08/09/重装系统后Hexo的备份与恢复/">重装系统后Hexo的备份与恢复</a>
+          </li>
+        
+          <li>
+            <a href="/2017/08/06/怎样申请freenom的免费域名？/">怎样申请freenom的免费域名？</a>
+          </li>
+        
+          <li>
+            <a href="/2017/08/06/github怎样绑定自己的域名？/">github怎样绑定自己的域名？</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2018 Jerry Guan<br>
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+  <script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+<script src="/js/script.js"></script>
+
+
+
+  </div>
+</body>
+</html>
